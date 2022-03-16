@@ -123,9 +123,9 @@ export const initialStateData = {
     thirdLine: 0,
     fourthLine: 0,
   },
-  leftWitness: {
+  rightWitness: {
     id: 13,
-    rank: 'LeftWitness',
+    rank: 'RightWitness',
     house: null,
     name: '',
     firstLine: 0,
@@ -133,9 +133,9 @@ export const initialStateData = {
     thirdLine: 0,
     fourthLine: 0,
   },
-  rightWitness: {
+  leftWitness: {
     id: 14,
-    rank: 'RightWitness',
+    rank: 'LeftWitness',
     house: null,
     name: '',
     firstLine: 0,
@@ -166,5 +166,6 @@ export const initialStateData = {
   partOfFortune: {
     id: 16,
     house: null,
+    display: false,
   },
 };
