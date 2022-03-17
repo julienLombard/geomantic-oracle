@@ -164,7 +164,7 @@ export const initialStateData = {
     fourthLine: 0,
   },
   partOfFortune: {
-    id: 16,
+    id: 17,
     house: null,
     display: false,
   },
