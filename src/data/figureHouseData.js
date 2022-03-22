@@ -36,15 +36,15 @@ export const figureHouseData = [
     house: 12,
   },
   {
-    name: 'niece1',
+    name: 'niece2',
     house: 3,
   },
   {
-    name: 'niece1',
+    name: 'niece3',
     house: 6,
   },
   {
-    name: 'niece1',
+    name: 'niece4',
     house: 9,
   },
 ];

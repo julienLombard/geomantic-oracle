@@ -6,6 +6,7 @@ import { figureHouseData } from '../../data/figureHouseData';
 export const GeomanticTheme = () => {
   const displayTheme = useSelector(getGeomanticTheme);
   const dispatch = useDispatch();
+  console.log(displayTheme);
   const renderFigures =
     displayTheme.mother1.name !== ''
       ? figureHouseData.map((e, i) => {
