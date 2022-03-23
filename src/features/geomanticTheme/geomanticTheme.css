@@ -1,0 +1,97 @@
+.figure-div {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  width: 6em;
+  margin-bottom: -100px;
+}
+
+.figure-name {
+  margin: 1em 0 0 0;
+
+  font-family: antic;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.figure-points {
+  margin: 0;
+
+  line-height: 40%;
+  font-size: 2em;
+  font-weight: 500;
+  color: black;
+}
+
+#figure-1 {
+  position: relative;
+  top: -533px;
+  left: 0px;
+}
+
+#figure-2 {
+  position: relative;
+  top: -382px;
+  left: -150px;
+}
+
+#figure-3 {
+  position: relative;
+  top: -245px;
+  left: 0px;
+}
+
+#figure-4 {
+  position: relative;
+  top: -410px;
+  left: 149px;
+}
+
+#figure-5 {
+  position: relative;
+  top: -681px;
+  left: -151px;
+}
+
+#figure-6 {
+  position: relative;
+  top: -306px;
+  left: -241px;
+}
+
+#figure-7 {
+  position: relative;
+  top: -214px;
+  left: 150px;
+}
+
+#figure-8 {
+  position: relative;
+  top: -627px;
+  left: 237px;
+}
+
+#figure-9 {
+  position: relative;
+  top: -644px;
+  left: -242px;
+}
+
+#figure-10 {
+  position: relative;
+  top: -255px;
+  left: -151px;
+}
+
+#figure-11 {
+  position: relative;
+  top: -374px;
+  left: 237px;
+}
+
+#figure-12 {
+  position: relative;
+  top: -777px;
+  left: 150px;
+}
