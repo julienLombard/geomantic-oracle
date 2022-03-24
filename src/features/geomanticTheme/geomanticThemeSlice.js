@@ -8,17 +8,44 @@ import {
   setFigures,
 } from './geomanticThemeFunctions';
 
+const testArr = [1, 1, 2, 2, 1, 2, 1, 2, 2, 2, 1, 1, 2, 1, 2, 2];
+
+export const mountTheme = (linesArr = testArr) => {
+  if (linesArr) {
+    return {
+      type: 'geomanticTheme/mountTheme',
+      payload: {
+        mother1: setFigures(linesArr[0], linesArr[1], linesArr[2], linesArr[3]),
+        mother2: setFigures(linesArr[4], linesArr[5], linesArr[6], linesArr[7]),
+        mother3: setFigures(
+          linesArr[8],
+          linesArr[9],
+          linesArr[10],
+          linesArr[11]
+        ),
+        mother4: setFigures(
+          linesArr[12],
+          linesArr[13],
+          linesArr[14],
+          linesArr[15]
+        ),
+      },
+    };
+  }
+  return null;
+};
+
 const initialState = initialStateData;
 
 export const geomanticTheme = createSlice({
   name: 'geomanticTheme',
   initialState,
   reducers: {
-    mountTheme(state, action) {
-      state.mother1 = setFigures(1, 1, 2, 2);
-      state.mother2 = setFigures(1, 2, 1, 2);
-      state.mother3 = setFigures(2, 2, 1, 1);
-      state.mother4 = setFigures(2, 1, 2, 2);
+    mountTheme(state, { payload }) {
+      state.mother1 = payload.mother1;
+      state.mother2 = payload.mother2;
+      state.mother3 = payload.mother3;
+      state.mother4 = payload.mother4;
 
       // daughter
       state.daughter1 = setFigures(
@@ -138,7 +165,7 @@ export const geomanticTheme = createSlice({
   },
 });
 
-export const { mountTheme } = geomanticTheme.actions;
+// export const { mountTheme } = geomanticTheme.actions;
 
 export const getGeomanticTheme = (state) => state.geomanticTheme;
 // export const getGeomanticTheme = (state) => state.geomanticTheme.value;

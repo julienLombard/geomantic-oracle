@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { mountTheme, getGeomanticTheme } from './geomanticThemeSlice';
 import { figureHouseData } from '../../data/figureHouseData';
@@ -33,7 +33,7 @@ export const GeomanticTheme = () => {
   return (
     <div>
       <h1>GeomanticTheme</h1>
-      <button onClick={() => dispatch(mountTheme())}>mount Theme</button>
+      <button onClick={() => dispatch(mountTheme)}>mount Theme</button>
       <div>
         <img src={geomanticThemeTemplate} alt="geomantic theme template" />
       </div>
