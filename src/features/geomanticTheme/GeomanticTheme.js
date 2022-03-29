@@ -5,6 +5,7 @@ import { figureHouseData } from '../../data/figureHouseData';
 import geomanticThemeTemplate from './geomantic_theme_template.png';
 import { isOdd } from './geomanticThemeFunctions';
 import './geomanticTheme.css';
+import { Figure } from '../../components/Figure';
 
 export const GeomanticTheme = () => {
   const displayTheme = useSelector(getGeomanticTheme);
@@ -13,21 +14,11 @@ export const GeomanticTheme = () => {
     displayTheme.mother1.name !== ''
       ? figureHouseData.map((e, i) => {
           return (
-            <div key={i} className="figure-div" id={'figure-' + (i + 1)}>
-              <p className="figure-points">
-                {displayTheme[e.name].firstLine === 1 ? ' . ' : '. .'}
-              </p>
-              <p className="figure-points">
-                {displayTheme[e.name].secondLine === 1 ? ' . ' : '. .'}
-              </p>
-              <p className="figure-points">
-                {displayTheme[e.name].thirdLine === 1 ? ' . ' : '. .'}
-              </p>
-              <p className="figure-points">
-                {displayTheme[e.name].fourthLine === 1 ? ' . ' : '. .'}
-              </p>
-              <p className="figure-name">{displayTheme[e.name].name}</p>
-            </div>
+            <Figure
+              key={i}
+              id={'figure-' + (i + 1)}
+              figure={displayTheme[e.name]}
+            ></Figure>
           );
         })
       : null;
