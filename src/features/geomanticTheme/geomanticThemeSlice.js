@@ -166,9 +166,6 @@ export const geomanticTheme = createSlice({
   },
 });
 
-// export const { mountTheme } = geomanticTheme.actions;
-
 export const getGeomanticTheme = (state) => state.geomanticTheme;
-// export const getGeomanticTheme = (state) => state.geomanticTheme.value;
 
 export default geomanticTheme.reducer;
