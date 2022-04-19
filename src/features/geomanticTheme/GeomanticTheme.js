@@ -7,6 +7,7 @@ import './geomanticTheme.css';
 import { Figure } from '../../components/Figure';
 import Form from '../../components/Form';
 import { motherFormData } from '../../data/motherFormData';
+import { figureInterpretationData } from '../../data/figureInterpretationData';
 
 export const GeomanticTheme = () => {
   const displayTheme = useSelector(getGeomanticTheme);
