@@ -28,10 +28,12 @@ export const GeomanticTheme = () => {
     <div>
       <h1>GeomanticTheme</h1>
       <Form name={'motherForm'} data={motherFormData} />
-      <div>
-        <img src={geomanticThemeTemplate} alt="geomantic theme template" />
+      <div className="themeTemplateContainer">
+        <div className="themeTemplate">
+          <img src={geomanticThemeTemplate} alt="geomantic theme template" />
+        </div>
+        {renderFigures}
       </div>
-      {renderFigures}
     </div>
   );
 };

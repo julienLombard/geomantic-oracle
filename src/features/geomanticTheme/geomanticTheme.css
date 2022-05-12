@@ -1,3 +1,18 @@
+.themeTemplateContainer {
+  width: 90%;
+  margin: auto;
+}
+
+.themeTemplate {
+  max-width: 100%;
+  min-width: 100%;
+  margin: auto;
+}
+
+img {
+  width: 374px;
+}
+
 .figure-div {
   display: flex;
   flex-direction: column;
@@ -26,72 +41,79 @@
 
 #figure-1 {
   position: relative;
-  top: -522px;
-  left: 0px;
+  top: -327px;
+  left: 1px;
 }
 
 #figure-2 {
   position: relative;
-  top: -372px;
-  left: -150px;
+  top: -203px;
+  left: -90px;
 }
 
 #figure-3 {
   position: relative;
-  top: -222px;
-  left: 0px;
+  top: -76px;
+  left: 0%;
 }
 
 #figure-4 {
   position: relative;
-  top: -368px;
-  left: 149px;
+  top: -138px;
+  left: 89px;
 }
 
 #figure-5 {
   position: relative;
-  top: -620px;
-  left: -151px;
+  top: -257px;
+  left: -94px;
 }
 
 #figure-6 {
   position: relative;
-  top: -225px;
-  left: -241px;
+  top: 8px;
+  left: -152px;
 }
 
 #figure-7 {
   position: relative;
-  top: -138px;
-  left: 150px;
+  top: 101px;
+  left: 93px;
 }
 
 #figure-8 {
   position: relative;
-  top: -527px;
-  left: 237px;
+  top: -103px;
+  left: 155px;
 }
 
 #figure-9 {
   position: relative;
-  top: -533px;
-  left: -242px;
+  top: -69px;
+  left: -161px;
 }
 
 #figure-10 {
   position: relative;
-  top: -133px;
-  left: -151px;
+  top: 199px;
+  left: -92px;
 }
 
 #figure-11 {
   position: relative;
-  top: -218px;
-  left: 237px;
+  top: 176px;
+  left: 151px;
 }
 
 #figure-12 {
   position: relative;
-  top: -609px;
-  left: 150px;
+  top: -29px;
+  left: 92px;
 }
+
+.figure-name {
+  visibility: hidden;
+}
+
+
+/* + Media query 1: > 500px & 2: >1000px */
