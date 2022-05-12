@@ -1,11 +1,13 @@
 .themeTemplateContainer {
-  width: 90%;
-  margin: auto;
+  width: 100%;
+  margin: 0;
 }
 
 .themeTemplate {
-  max-width: 100%;
-  min-width: 100%;
+  /* max-width: 100%; */
+  /* min-width: 100%; */
+  position: relative;
+  width: 374px;
   margin: auto;
 }
 
@@ -14,106 +16,170 @@ img {
 }
 
 .figure-div {
-  display: flex;
-  flex-direction: column;
-
-  margin: 0 auto;
-  width: 6em;
-  margin-bottom: -115px;
+  position: absolute;
+  /* display: flex;
+  flex-direction: column; */
+  /* margin: 0 auto; */
+  margin: 0;
+  /* width: 6em;
+  width: 28px;
+  /* margin-bottom: -115px; */
 }
 
 .figure-name {
   margin: 1em 0 0 0;
+  /* width: 3em; */
+  width: 90px;
 
   font-family: antic;
   font-size: 0.6em;
   font-weight: bold;
+
+  visibility: hidden;
 }
 
 .figure-points {
   margin: 0;
 
   line-height: 40%;
-  font-size: 2em;
+  /* font-size: 2em; */
+  font-size: 36px;
   font-weight: 500;
   color: black;
 }
 
 #figure-1 {
-  position: relative;
-  top: -327px;
-  left: 1px;
+  top: 13.5%;
+  left: 38.5%;
 }
 
 #figure-2 {
-  position: relative;
-  top: -203px;
-  left: -90px;
+  top: 37%;
+  left: 14%;
 }
 
 #figure-3 {
-  position: relative;
-  top: -76px;
-  left: 0%;
+  top: 63%;
+  left: 38.5%;
 }
 
 #figure-4 {
-  position: relative;
-  top: -138px;
-  left: 89px;
+  top: 37%;
+  left: 62%;
 }
 
 #figure-5 {
-  position: relative;
-  top: -257px;
-  left: -94px;
+  top: 0%;
+  left: 13%;
 }
 
 #figure-6 {
-  position: relative;
-  top: 8px;
-  left: -152px;
+  top: 62%;
+  left: -2%;
 }
 
 #figure-7 {
-  position: relative;
-  top: 101px;
-  left: 93px;
+  top: 77%;
+  left: 62%;
 }
 
 #figure-8 {
-  position: relative;
-  top: -103px;
-  left: 155px;
+  top: 13.5%;
+  left: 78%;
 }
 
 #figure-9 {
-  position: relative;
-  top: -69px;
-  left: -161px;
+  top: 13.5%;
+  left: -2%;
 }
 
 #figure-10 {
-  position: relative;
-  top: 199px;
-  left: -92px;
+  top: 77%;
+  left: 13%;
 }
 
 #figure-11 {
-  position: relative;
-  top: 176px;
-  left: 151px;
+  top: 62%;
+  left: 78%;
 }
 
 #figure-12 {
-  position: relative;
-  top: -29px;
-  left: 92px;
-}
-
-.figure-name {
-  visibility: hidden;
+  top: 0%;
+  left: 62%;
 }
 
 
-/* + Media query 1: > 500px & 2: >1000px */
+/* Media queries */
+@media (min-width: 500px) {
+  img {
+    width: 374px;
+  }
+  
+  .figure-name {
+    visibility: visible;
+  }
+  
+  #figure-1 {
+    top: 13.5%;
+    left: 38.5%;
+  }
+  
+  #figure-2 {
+    top: 37%;
+    left: 14%;
+  }
+  
+  #figure-3 {
+    top: 63%;
+    left: 38.5%;
+  }
+  
+  #figure-4 {
+    top: 37%;
+    left: 62%;
+  }
+  
+  #figure-5 {
+    top: 0%;
+    left: 13%;
+  }
+  
+  #figure-6 {
+    top: 62%;
+    left: -2%;
+  }
+  
+  #figure-7 {
+    top: 77%;
+    left: 62%;
+  }
+  
+  #figure-8 {
+    top: 13.5%;
+    left: 78%;
+  }
+  
+  #figure-9 {
+    top: 13.5%;
+    left: -2%;
+  }
+  
+  #figure-10 {
+    top: 77%;
+    left: 13%;
+  }
+  
+  #figure-11 {
+    top: 62%;
+    left: 78%;
+  }
+  
+  #figure-12 {
+    top: 0%;
+    left: 62%;
+  }
+}
+
+@media (min-width: 1000px) {
+
+}

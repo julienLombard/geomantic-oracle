@@ -31,8 +31,8 @@ export const GeomanticTheme = () => {
       <div className="themeTemplateContainer">
         <div className="themeTemplate">
           <img src={geomanticThemeTemplate} alt="geomantic theme template" />
+          {renderFigures}
         </div>
-        {renderFigures}
       </div>
     </div>
   );

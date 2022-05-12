@@ -13,7 +13,7 @@ const Form = (props) => {
           return (
             <div key={e.id} className={name + '-div'}>
               <label className={name + '-label'}>
-                {e.name + ':'}
+                <div>{e.name + ':'}</div>
                 <input
                   className={name + '-input'}
                   type="number"
