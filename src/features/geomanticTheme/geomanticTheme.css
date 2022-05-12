@@ -1,3 +1,4 @@
+
 .themeTemplateContainer {
   width: 100%;
   margin: 0;
@@ -176,6 +177,7 @@ img {
 }
 
 @media (min-width: 1000px) {
+
   .themeTemplate {
     width: 700px;
   }

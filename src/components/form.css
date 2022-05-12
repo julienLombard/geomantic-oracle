@@ -1,0 +1,14 @@
+@media (min-width: 500px) {
+
+    .motherForm {
+      width: 74%;
+      margin: auto;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .motherForm {
+      width: 100%;
+    }
+}

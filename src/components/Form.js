@@ -2,6 +2,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { isOdd } from '../features/geomanticTheme/geomanticThemeFunctions';
 import { mountTheme } from '../features/geomanticTheme/geomanticThemeSlice';
+import './form.css';
 
 const Form = (props) => {
   const dispatch = useDispatch();
