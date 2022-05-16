@@ -8,7 +8,7 @@ export const ThemeReader = (props) => {
   return (
     <div>
       <form>
-        <button type="submit">Intepretation</button>
+        <button type="submit">Interpretation</button>
       </form>
 
       <div className="interpretation-table">

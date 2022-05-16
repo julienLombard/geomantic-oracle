@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
-import { isOdd } from '../features/geomanticTheme/geomanticThemeFunctions';
-import { mountTheme } from '../features/geomanticTheme/geomanticThemeSlice';
+import { isOdd } from '../../features/geomanticTheme/geomanticThemeFunctions';
+import { mountTheme } from '../../features/geomanticTheme/geomanticThemeSlice';
 import './form.css';
 
 const Form = (props) => {
@@ -14,7 +14,7 @@ const Form = (props) => {
           return (
             <div key={e.id} className={name + '-div'}>
               <label className={name + '-label'}>
-                <div>{e.name + ':'}</div>
+                <div>{e.name}</div>
                 <input
                   className={name + '-input'}
                   type="number"

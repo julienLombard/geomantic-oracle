@@ -4,8 +4,8 @@ import { getGeomanticTheme } from './geomanticThemeSlice';
 import { figureHouseData } from '../../data/figureHouseData';
 import geomanticThemeTemplate from './geomantic_theme_template.png';
 import './geomanticTheme.css';
-import { Figure } from '../../components/Figure';
-import Form from '../../components/Form';
+import { Figure } from '../../components/figure/Figure';
+import Form from '../../components/form/Form';
 import { motherFormData } from '../../data/motherFormData';
 import { ThemeReader } from '../../components/themeReader/ThemeReader';
 

@@ -1,7 +1,7 @@
 export const motherFormData = [
   {
     id: 1,
-    name: 'First mother',
+    name: 'Première Mère',
     lines: {
       first: 'L1',
       second: 'L2',
@@ -11,7 +11,7 @@ export const motherFormData = [
   },
   {
     id: 2,
-    name: 'Second mother',
+    name: 'Deuxième Mère',
     lines: {
       first: 'L5',
       second: 'L6',
@@ -21,7 +21,7 @@ export const motherFormData = [
   },
   {
     id: 3,
-    name: 'Third mother',
+    name: 'Troisème Mère',
     lines: {
       first: 'L9',
       second: 'L10',
@@ -31,7 +31,7 @@ export const motherFormData = [
   },
   {
     id: 4,
-    name: 'Fourth mother',
+    name: 'Quatrième Mère',
     lines: {
       first: 'L13',
       second: 'L14',
