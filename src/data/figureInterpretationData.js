@@ -1,5 +1,5 @@
 export const figureInterpretationData = {
-  puer: {
+  Puer: {
     general:
       "Mauvais dans la plupart des demandes, sauf celles en rapport avec la Guerre ou l'Amour",
     maison_1: 'Ni bon, ni mauvais. Sauf pour la guerre où il est bon.',
@@ -16,7 +16,7 @@ export const figureInterpretationData = {
     maison_11: 'Moyen ; de bonnes faveurs.',
     maison_12: 'Très bon en tout.',
   },
-  amissio: {
+  Amissio: {
     general:
       "Bon pour les pertes de biens et quelquefois pour l'amour; mais très mauvais pour le gain",
     maison_1: 'Mauvais en toutes choses, sauf pour les prisonniers.',
@@ -32,7 +32,7 @@ export const figureInterpretationData = {
     maison_11: "Bon pour l'amour, mauvais pour le reste.",
     maison_12: 'Mauvais en toutes choses.',
   },
-  albus: {
+  Albus: {
     general:
       'Bon pour le profit, pénétrer dans un endroit ou se lancer dans un projet.',
     maison_1: 'Bon pour le mariage. Humeur changeante. Paix.',
@@ -48,7 +48,7 @@ export const figureInterpretationData = {
     maison_11: 'Très bon.',
     maison_12: 'Merveilleusement positif.',
   },
-  populus: {
+  Populus: {
     general:
       'Parfois bon, parfois mauvais ; bon avec le bon, et mauvais avec le mauvais.',
     maison_1: 'Bon pour le mariage.',
@@ -64,7 +64,7 @@ export const figureInterpretationData = {
     maison_11: 'Bon en tout.',
     maison_12: 'Très mauvais.',
   },
-  via: {
+  Via: {
     general:
       'Généralement préjudiciable au bon aspect des autres figures, mais bon pour les trajets et les voyages.',
     maison_1: 'Bon, sauf pour la prison.',
@@ -80,7 +80,7 @@ export const figureInterpretationData = {
     maison_11: 'Très bon.',
     maison_12: 'Excellent.',
   },
-  fortunaMinor: {
+  'Fortuna Minor': {
     general: 'Bon en tout domaine où une personne souhaite agir promptement.',
     maison_1:
       "Rapidité dans la victoire et dans l'amour, mais aspect colérique.",
@@ -97,7 +97,7 @@ export const figureInterpretationData = {
     maison_12:
       "Bon, sauf pour le changement, ou pour intenter un procès à quelqu'un.",
   },
-  fortunaMajor: {
+  'Fortuna Major': {
     general:
       'Bon pour toutes choses où une personne a des espoirs de réussite.',
     maison_1: 'Bon, sauf pour ce qui est secret.',
@@ -113,7 +113,7 @@ export const figureInterpretationData = {
     maison_11: 'Très bon.',
     maison_12: 'Bon en tout.',
   },
-  conjunctio: {
+  Conjunctio: {
     general:
       'Bon dans ce qui est bon, ou mauvais dans ce qui est mauvais. Récupération de choses perdues.',
     maison_1: 'Bon dans ce qui est bon, mauvais dans ce qui est mauvais.',
@@ -129,7 +129,7 @@ export const figureInterpretationData = {
     maison_11: 'Bon en tout.',
     maison_12: 'Mauvais pour les prisonniers.',
   },
-  puella: {
+  Puella: {
     general:
       'Bon dans toutes les demandes, spécialement celles en rapport avec les femmes.',
     maison_1: 'Bon, sauf pour la guerre.',
@@ -145,7 +145,7 @@ export const figureInterpretationData = {
     maison_11: "Bon notamment pour l'amour des femmes.",
     maison_12: 'Bon en tout.',
   },
-  rubeus: {
+  Rubeus: {
     general: '...',
     maison_1:
       'Détruire la figure, si elle tombe ici ! Elle enlève toute valeur au jugement.',
@@ -161,7 +161,7 @@ export const figureInterpretationData = {
     maison_11: 'Mauvais, sauf pour les saignées.',
     maison_12: 'Mauvais en toutes choses.',
   },
-  acquisitio: {
+  Acquisitio: {
     general: 'Généralement bon pour le profit et les gains.',
     maison_1: 'Heureux, réussite en toutes choses.',
     maison_2: 'Très prospère.',
@@ -176,7 +176,7 @@ export const figureInterpretationData = {
     maison_11: 'Bénéfique pour tout.',
     maison_12: 'Maléfique, douleur et perte.',
   },
-  carcer: {
+  Carcer: {
     general:
       'Généralement mauvais, Délai, contrainte, empêchement, restriction.',
     maison_1: "Mauvais, si ce n'est pour fortifier un lieu.",
@@ -192,7 +192,7 @@ export const figureInterpretationData = {
     maison_11: "Beaucoup d'anxiété.",
     maison_12: 'Plutôt bon.',
   },
-  tristitia: {
+  Tristitia: {
     general: 'Mauvais en presque tout.',
     maison_1: 'Pasable, mais bon pour les trésors et fortifier.',
     maison_2: 'Passable, mais bon pour fortifier',
@@ -208,7 +208,7 @@ export const figureInterpretationData = {
     maison_11: 'Mauvais en tout.',
     maison_12: 'Mauvais. Mais bon pour la magie et les trésors.',
   },
-  laetitia: {
+  Laetitia: {
     general: 'Bon pour la joie, présente ou à venir.',
     maison_1: 'Bon, sauf pour la guerre.',
     maison_2: 'Aspect maladif.',
@@ -222,5 +222,35 @@ export const figureInterpretationData = {
     maison_10: 'Bon, plus pour la guerre que pour la paix.',
     maison_11: 'Bon en tout.',
     maison_12: "Mauvais dans l'ensemble.",
+  },
+  'Caput Draconis': {
+    general: 'test',
+    maison_1: 'test',
+    maison_2: 'test',
+    maison_3: 'test',
+    maison_4: 'test',
+    maison_5: 'test',
+    maison_6: 'test',
+    maison_7: 'test',
+    maison_8: 'test',
+    maison_9: 'test',
+    maison_10: 'test',
+    maison_11: 'test',
+    maison_12: 'test',
+  },
+  'Cauda Draconis': {
+    general: 'test',
+    maison_1: 'test',
+    maison_2: 'test',
+    maison_3: 'test',
+    maison_4: 'test',
+    maison_5: 'test',
+    maison_6: 'test',
+    maison_7: 'test',
+    maison_8: 'test',
+    maison_9: 'test',
+    maison_10: 'test',
+    maison_11: 'test',
+    maison_12: 'test',
   },
 };

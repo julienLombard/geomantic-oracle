@@ -7,7 +7,7 @@ import './geomanticTheme.css';
 import { Figure } from '../../components/Figure';
 import Form from '../../components/Form';
 import { motherFormData } from '../../data/motherFormData';
-import { figureInterpretationData } from '../../data/figureInterpretationData';
+import { ThemeReader } from '../../components/themeReader/ThemeReader';
 
 export const GeomanticTheme = () => {
   const displayTheme = useSelector(getGeomanticTheme);
@@ -34,6 +34,7 @@ export const GeomanticTheme = () => {
           {renderFigures}
         </div>
       </div>
+      <ThemeReader figures={displayTheme} />
     </div>
   );
 };
