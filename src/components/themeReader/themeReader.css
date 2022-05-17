@@ -5,11 +5,10 @@ table, th, td {
 
 table {
     margin: 0.5em 0 0.5em 0;
+    width: 100%;
 }
 
 /* Media queries */
-@media (min-width: 500px) {}
-
 @media (min-width: 1000px) {
     .interpretation-table {
         display: grid;

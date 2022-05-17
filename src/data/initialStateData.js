@@ -166,6 +166,5 @@ export const initialStateData = {
   partOfFortune: {
     id: 17,
     house: null,
-    display: false,
   },
 };

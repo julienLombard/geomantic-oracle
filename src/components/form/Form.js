@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useDispatch } from 'react-redux';
 import { isOdd } from '../../features/geomanticTheme/geomanticThemeFunctions';
 import { mountTheme } from '../../features/geomanticTheme/geomanticThemeSlice';
@@ -7,6 +7,7 @@ import './form.css';
 const Form = (props) => {
   const dispatch = useDispatch();
   const { name, data } = props;
+  const scrollToTheme = useRef(null);
 
   const renderInput =
     data !== undefined
@@ -54,13 +55,17 @@ const Form = (props) => {
     if (fourMothers.length === 16) {
       dispatch(mountTheme(fourMothers));
     }
+
+    scrollToTheme.current.scrollIntoView();
   };
 
   return (
     <form className={name} onSubmit={handleSubmit}>
       {renderInput}
 
-      <button type="submit">mount Theme</button>
+      <button type="submit" ref={scrollToTheme}>
+        mount Theme
+      </button>
     </form>
   );
 };

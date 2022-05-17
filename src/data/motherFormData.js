@@ -21,7 +21,7 @@ export const motherFormData = [
   },
   {
     id: 3,
-    name: 'Troisème Mère',
+    name: 'Troisième Mère',
     lines: {
       first: 'L9',
       second: 'L10',
