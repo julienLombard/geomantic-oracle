@@ -1,22 +1,22 @@
 @media (min-width: 500px) {
 
     .motherForm {
-      width: 74%;
+      width: 22em;
       margin: auto;
     }
 
     .motherForm-input {
-      width: 16.5%;
+      width: 7.5em;
     }
 }
 
 @media (min-width: 1000px) {
 
     .motherForm {
-      width: 100%;
+      width: 30em;
     }
 
     .motherForm-input {
-      width: 14%;
+      width: 11em;
     }
 }
