@@ -26,7 +26,7 @@ export const GeomanticTheme = () => {
 
   return (
     <div>
-      <h1>GeomanticTheme</h1>
+      <h1>Geomantic Theme</h1>
       <Form name={'motherForm'} data={motherFormData} />
       <div className="themeTemplateContainer">
         <div className="themeTemplate">

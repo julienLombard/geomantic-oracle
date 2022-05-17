@@ -91,7 +91,7 @@ export const geomanticFiguresData = [
     fourthLine: 1,
   },
   {
-    name: 'laetitia',
+    name: 'Laetitia',
     firstLine: 1,
     secondLine: 2,
     thirdLine: 2,

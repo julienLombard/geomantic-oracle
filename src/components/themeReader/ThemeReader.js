@@ -154,9 +154,16 @@ export const ThemeReader = (props) => {
   return (
     <div>
       {figures.mother1.name !== '' && (
-        <button type="button" onClick={ToggleTable} ref={scrollToButton}>
-          {buttonName}
-        </button>
+        <div className="interpretation-div-button">
+          <button
+            type="button"
+            onClick={ToggleTable}
+            ref={scrollToButton}
+            id="interpretation-button"
+          >
+            {buttonName}
+          </button>
+        </div>
       )}
 
       {figures.mother1.name !== '' && table}

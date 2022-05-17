@@ -4,11 +4,19 @@
       width: 74%;
       margin: auto;
     }
+
+    .motherForm-input {
+      width: 16.5%;
+    }
 }
 
 @media (min-width: 1000px) {
 
     .motherForm {
       width: 100%;
+    }
+
+    .motherForm-input {
+      width: 14%;
     }
 }
