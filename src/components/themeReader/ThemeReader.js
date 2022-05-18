@@ -5,7 +5,7 @@ import './themeReader.css';
 export const ThemeReader = (props) => {
   const { figures } = props;
   const [renderTable, setRenderTable] = useState(true);
-  const [buttonName, setButtonName] = useState('masquer interpretation');
+  const [buttonName, setButtonName] = useState('masquer Interpretation');
   const scrollToButton = useRef(null);
 
   const table = renderTable ? (
@@ -143,9 +143,9 @@ export const ThemeReader = (props) => {
   const ToggleTable = () => {
     setRenderTable(!renderTable);
     setButtonName(
-      buttonName === 'afficher interpretation'
-        ? 'masquer interpretation'
-        : 'afficher interpretation'
+      buttonName === 'afficher Interpretation'
+        ? 'masquer Interpretation'
+        : 'afficher Interpretation'
     );
 
     scrollToButton.current.scrollIntoView();

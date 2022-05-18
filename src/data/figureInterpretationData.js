@@ -1,7 +1,7 @@
 export const figureInterpretationData = {
   Puer: {
     general:
-      "Mauvais dans la plupart des demandes, sauf celles en rapport avec la Guerre ou l'Amour",
+      "Puer: Mauvais dans la plupart des demandes, sauf celles en rapport avec la Guerre ou l'Amour",
     maison_1: 'Ni bon, ni mauvais. Sauf pour la guerre où il est bon.',
     maison_2: 'Bon, mais avec des difficultés.',
     maison_3: 'Bonne fortune.',
@@ -18,7 +18,7 @@ export const figureInterpretationData = {
   },
   Amissio: {
     general:
-      "Bon pour les pertes de biens et quelquefois pour l'amour; mais très mauvais pour le gain",
+      "Amissio: Bon pour les pertes de biens et quelquefois pour l'amour; mais très mauvais pour le gain",
     maison_1: 'Mauvais en toutes choses, sauf pour les prisonniers.',
     maison_2: "Très mauvais pour l'argent, mais bon pour l'amour.",
     maison_3: 'Fin malheureuse - sauf pour les querelles.',
@@ -34,7 +34,7 @@ export const figureInterpretationData = {
   },
   Albus: {
     general:
-      'Bon pour le profit, pénétrer dans un endroit ou se lancer dans un projet.',
+      'Albus: Bon pour le profit, pénétrer dans un endroit ou se lancer dans un projet.',
     maison_1: 'Bon pour le mariage. Humeur changeante. Paix.',
     maison_2: 'Bon en tout.',
     maison_3: 'Très bon.',
@@ -50,7 +50,7 @@ export const figureInterpretationData = {
   },
   Populus: {
     general:
-      'Parfois bon, parfois mauvais ; bon avec le bon, et mauvais avec le mauvais.',
+      'Populus: Parfois bon, parfois mauvais ; bon avec le bon, et mauvais avec le mauvais.',
     maison_1: 'Bon pour le mariage.',
     maison_2: 'Moyennement bon.',
     maison_3: 'Plus bon que mauvais.',
@@ -66,7 +66,7 @@ export const figureInterpretationData = {
   },
   Via: {
     general:
-      'Généralement préjudiciable au bon aspect des autres figures, mais bon pour les trajets et les voyages.',
+      'Via: Généralement préjudiciable au bon aspect des autres figures, mais bon pour les trajets et les voyages.',
     maison_1: 'Bon, sauf pour la prison.',
     maison_2: 'Passable.',
     maison_3: 'Très bon en tout.',
@@ -81,7 +81,8 @@ export const figureInterpretationData = {
     maison_12: 'Excellent.',
   },
   'Fortuna Minor': {
-    general: 'Bon en tout domaine où une personne souhaite agir promptement.',
+    general:
+      'Fortuna Minor: Bon en tout domaine où une personne souhaite agir promptement.',
     maison_1:
       "Rapidité dans la victoire et dans l'amour, mais aspect colérique.",
     maison_2: 'Très bon.',
@@ -99,7 +100,7 @@ export const figureInterpretationData = {
   },
   'Fortuna Major': {
     general:
-      'Bon pour toutes choses où une personne a des espoirs de réussite.',
+      'Fortuna Major: Bon pour toutes choses où une personne a des espoirs de réussite.',
     maison_1: 'Bon, sauf pour ce qui est secret.',
     maison_2: 'Bon, sauf pour les choses tristes.',
     maison_3: 'Bon en tout.',
@@ -115,7 +116,7 @@ export const figureInterpretationData = {
   },
   Conjunctio: {
     general:
-      'Bon dans ce qui est bon, ou mauvais dans ce qui est mauvais. Récupération de choses perdues.',
+      'Conjunctio: Bon dans ce qui est bon, ou mauvais dans ce qui est mauvais. Récupération de choses perdues.',
     maison_1: 'Bon dans ce qui est bon, mauvais dans ce qui est mauvais.',
     maison_2: 'Généralement bon.',
     maison_3: 'Bonne fortune.',
@@ -131,7 +132,7 @@ export const figureInterpretationData = {
   },
   Puella: {
     general:
-      'Bon dans toutes les demandes, spécialement celles en rapport avec les femmes.',
+      'Puella: Bon dans toutes les demandes, spécialement celles en rapport avec les femmes.',
     maison_1: 'Bon, sauf pour la guerre.',
     maison_2: 'Très bon.',
     maison_3: 'Bon.',
@@ -146,7 +147,7 @@ export const figureInterpretationData = {
     maison_12: 'Bon en tout.',
   },
   Rubeus: {
-    general: '...',
+    general: 'Rubeus: ... ',
     maison_1:
       'Détruire la figure, si elle tombe ici ! Elle enlève toute valeur au jugement.',
     maison_2: 'Mauvais dans toutes les demandes.',
@@ -162,7 +163,7 @@ export const figureInterpretationData = {
     maison_12: 'Mauvais en toutes choses.',
   },
   Acquisitio: {
-    general: 'Généralement bon pour le profit et les gains.',
+    general: 'Acquisitio: Généralement bon pour le profit et les gains.',
     maison_1: 'Heureux, réussite en toutes choses.',
     maison_2: 'Très prospère.',
     maison_3: 'Faveurs et richesses.',
@@ -178,7 +179,7 @@ export const figureInterpretationData = {
   },
   Carcer: {
     general:
-      'Généralement mauvais, Délai, contrainte, empêchement, restriction.',
+      'Carcer: Généralement mauvais, Délai, contrainte, empêchement, restriction.',
     maison_1: "Mauvais, si ce n'est pour fortifier un lieu.",
     maison_2: 'Bon dans les questions Saturniennes. Autrement: mauvais.',
     maison_3: 'Mauvais.',
@@ -193,7 +194,7 @@ export const figureInterpretationData = {
     maison_12: 'Plutôt bon.',
   },
   Tristitia: {
-    general: 'Mauvais en presque tout.',
+    general: 'Tristitia: Mauvais en presque tout.',
     maison_1: 'Pasable, mais bon pour les trésors et fortifier.',
     maison_2: 'Passable, mais bon pour fortifier',
     maison_3: 'Mauvais en tout.',
@@ -209,7 +210,7 @@ export const figureInterpretationData = {
     maison_12: 'Mauvais. Mais bon pour la magie et les trésors.',
   },
   Laetitia: {
-    general: 'Bon pour la joie, présente ou à venir.',
+    general: 'Laetitia: Bon pour la joie, présente ou à venir.',
     maison_1: 'Bon, sauf pour la guerre.',
     maison_2: 'Aspect maladif.',
     maison_3: 'Maladie.',
@@ -225,7 +226,7 @@ export const figureInterpretationData = {
   },
   'Caput Draconis': {
     general:
-      "Bon avec le bon ; mauvais avec le mauvais. Octroie une fin heureuse aux questions d'argent.",
+      "Caput Draconis: Bon avec le bon ; mauvais avec le mauvais. Octroie une fin heureuse aux questions d'argent.",
     maison_1: 'Bon en toutes choses.',
     maison_2: 'Bon.',
     maison_3: 'Très bon.',
@@ -241,7 +242,7 @@ export const figureInterpretationData = {
   },
   'Cauda Draconis': {
     general:
-      "Bon pour le mal, et mauvais pour le bien. Bon pour les pertes, et la fin d'une liaison.",
+      "Cauda Draconis: Bon pour le mal, et mauvais pour le bien. Bon pour les pertes, et la fin d'une liaison.",
     maison_1: 'Détruire la figure si elle tombe ici ! rend le jugement vain.',
     maison_2: 'Très mauvais.',
     maison_3: 'Mauvais en tout.',
