@@ -218,7 +218,7 @@ export const figureInterpretationData = {
     maison_5: 'Excellent.',
     maison_6: "Mauvais dans l'ensemble.",
     maison_7: 'Passable.',
-    maison_8: 'Mauvais dans lensemble.',
+    maison_8: "Mauvais dans l'ensemble.",
     maison_9: 'Très bon.',
     maison_10: 'Bon, plus pour la guerre que pour la paix.',
     maison_11: 'Bon en tout.',
