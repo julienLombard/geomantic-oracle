@@ -8,6 +8,7 @@ import { Figure } from '../../components/figure/Figure';
 import Form from '../../components/form/Form';
 import { motherFormData } from '../../data/motherFormData';
 import { ThemeReader } from '../../components/themeReader/ThemeReader';
+import { RandomThemeButton } from '../../components/randomThemeButton/RandomThemeButton';
 
 export const GeomanticTheme = () => {
   const displayTheme = useSelector(getGeomanticTheme);
@@ -28,6 +29,7 @@ export const GeomanticTheme = () => {
     <div>
       <h1>Geomantic Oracle</h1>
       <Form name={'motherForm'} data={motherFormData} />
+      <RandomThemeButton />
       <div className="themeTemplateContainer">
         <div className="themeTemplate">
           <img src={geomanticThemeTemplate} alt="geomantic theme template" />
