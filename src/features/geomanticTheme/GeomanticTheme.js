@@ -32,7 +32,11 @@ export const GeomanticTheme = () => {
       <RandomThemeButton />
       <div className="themeTemplateContainer">
         <div className="themeTemplate">
-          <img src={geomanticThemeTemplate} alt="geomantic theme template" />
+          <img
+            src={geomanticThemeTemplate}
+            alt="geomantic theme template"
+            className="themeTemplate-img"
+          />
           {renderFigures}
         </div>
       </div>

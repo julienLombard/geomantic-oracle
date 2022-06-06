@@ -4,17 +4,25 @@
 }
 
 table, th, td {
-    border: 1.75px solid;
+    border: 1.75px solid #e6c87d80;
     border-collapse: collapse;
 }
 
 table {
     margin: 0.5em 0 0.5em 0;
     width: 100%;
+
+    background-color: #c5a376;
+    opacity: 0.8;
 }
 
 th {
     width: 25%;
+    background: linear-gradient(to right, #863e1a, #9e6b3a, #c5a376, #9e6b3a, #863e1a);
+}
+
+td {
+    background: linear-gradient(to top , #9e6b3a, #c5a376, #9e6b3a);
 }
 
 /* Media queries */

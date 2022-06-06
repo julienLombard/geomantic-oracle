@@ -14,10 +14,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <main className="App-main">
         <img src={logo} className="App-logo" alt="logo" />
         <GeomanticTheme />
-      </header>
+      </main>
     </div>
   );
 }

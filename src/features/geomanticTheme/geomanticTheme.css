@@ -10,8 +10,10 @@
   margin: auto;
 }
 
-img {
+.themeTemplate-img {
   width: 374px;
+
+  opacity: 0.5;
 }
 
 .figure-div {
@@ -107,7 +109,7 @@ img {
     width: 500px;
   }
 
-  img {
+  .themeTemplate-img {
     width: 500px;
   }
   
@@ -182,7 +184,7 @@ img {
     width: 700px;
   }
 
-  img {
+  .themeTemplate-img {
     width: 700px;
   }
 
