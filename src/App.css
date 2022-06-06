@@ -1,12 +1,18 @@
 .App {
   text-align: center;
 
-  background: linear-gradient(to bottom right, #a9b806, #c5a376 20%, #f0e3bb 40%);
+  background-image: linear-gradient(to bottom right, rgba(134, 62, 26, .7), rgba(158, 107, 58, .7), rgba(197, 163, 118, .7), rgba(240, 227, 187, .7) 40%), url(terre.jpg);
+  background-repeat: no-repeat, no-repeat;
+  background-size: cover;
+
+  /* opacity: 0.9; */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+
+  opacity: 0.7;
 }
 
 @media (prefers-reduced-motion: no-preference) {

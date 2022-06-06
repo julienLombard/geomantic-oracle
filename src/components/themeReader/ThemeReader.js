@@ -122,7 +122,7 @@ export const ThemeReader = (props) => {
             </td>
           </tr>
           <tr>
-            <th scope="row">Conciliator</th>
+            <th scope="row">Conciliateur</th>
             <td>
               {data[figures.conciliator.name] &&
                 data[figures.conciliator.name].general}
