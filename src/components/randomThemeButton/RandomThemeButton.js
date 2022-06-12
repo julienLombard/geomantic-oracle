@@ -20,8 +20,13 @@ export const RandomThemeButton = () => {
 
   return (
     <div>
-      <button type="button" ref={scrollToTheme} onClick={randomTheme}>
-        random Theme
+      <button
+        type="button"
+        ref={scrollToTheme}
+        onClick={randomTheme}
+        className="App-button"
+      >
+        Générer un thème aléatoire
       </button>
     </div>
   );

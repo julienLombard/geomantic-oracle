@@ -160,6 +160,7 @@ export const ThemeReader = (props) => {
             onClick={ToggleTable}
             ref={scrollToButton}
             id="interpretation-button"
+            className="App-button"
           >
             {buttonName}
           </button>

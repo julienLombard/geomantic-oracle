@@ -15,6 +15,30 @@
   opacity: 0.7;
 }
 
+.App-button {
+  width: 10em;
+  padding: .35em;
+
+  border: none;
+
+  font-size: .75em; ;
+  color:aliceblue;
+  background: radial-gradient(145% 189% at 120% 170%,  rgba(172,87,20,.8), rgba(255,92,0,.8), rgba(211,151,37,.8), rgba(255,92,0,.8),  rgba(172,87,20,.8));
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+
+  opacity: 1;
+}
+
+.App-button:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
+}
+
+.App-button:active {
+  background: radial-gradient(145% 189% at 120% 170%,  rgba(172,87,20,.8), rgba(255,92,0,.8),  rgba(172,87,20,.8));
+
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-float infinite 3s ease-in-out;

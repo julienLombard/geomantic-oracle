@@ -28,8 +28,8 @@ export const GeomanticTheme = () => {
   return (
     <div>
       <h1>Geomantic Oracle</h1>
-      <Form name={'motherForm'} data={motherFormData} />
       <RandomThemeButton />
+      <Form name={'motherForm'} data={motherFormData} />
       <div className="themeTemplateContainer">
         <div className="themeTemplate">
           <img

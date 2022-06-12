@@ -63,8 +63,8 @@ const Form = (props) => {
     <form className={name} onSubmit={handleSubmit}>
       {renderInput}
 
-      <button type="submit" ref={scrollToTheme}>
-        mount Theme
+      <button type="submit" ref={scrollToTheme} className="App-button">
+        Calculer le thème
       </button>
     </form>
   );
