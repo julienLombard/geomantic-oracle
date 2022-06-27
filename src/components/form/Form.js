@@ -54,9 +54,8 @@ const Form = (props) => {
 
     if (fourMothers.length === 16) {
       dispatch(mountTheme(fourMothers));
+      scrollToTheme.current.scrollIntoView();
     }
-
-    scrollToTheme.current.scrollIntoView();
   };
 
   return (
